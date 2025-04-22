@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    display: inline-block;
+    height: 70px;
+    align-items: center;
+    width: 100%;
+}
+
+.izquierda {
+    display: inline-block;
+}
+.izquierda img{
+    height: 50px;
+    margin-left: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+.nombre-empresa{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 5px;
+    margin-top: 60px;
+    margin-left: 2px;
+    font-size: 30px;
+}
+
+.derecha{
+    float: right;
+    line-height: 80px;
+    margin-top: 25px;
+    margin-right: 200px;
+}
+
+.derecha a {
+    float: left;
+    text-decoration: none;
+    padding-right: 2px;
+    margin-right: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(173, 173, 173);
+    font-size: 20px;
+    padding: 0;
+    margin-top: 0;
+
+}
+
+.boton{
+
+    background-color: rgba(0, 174, 255, 0.959);
+    display: inline-block;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    margin: 0.5rem;
+    width: 90px;
+    height: 80px;
+
+
+}
+
+/*CONTENIDO PAGINA*/
+.Contenido{
+    margin-left: 200px;
+    margin-top: 300px;
+}
+
+.Contenido h1{
+    font-size: 50px;
+    display: block;
+    font-weight: bold;
+}
+
+.texto-inferior{
+    margin-top: -20px;
+}
+
+.Contenido p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(173, 173, 173);
+}
+
+.parrafo-inferior{
+    margin-bottom: 60px;
+}
+
+.boton-start{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(118, 200, 252);
+    line-height: 20px;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+
+div .imagen{
+    height: 600px;
+    float: right;
+    margin-top: -420px;
+    margin-right: 150px;
+}
